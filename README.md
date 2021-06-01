@@ -1,2 +1,2 @@
-# Judge-Girl-Problem-Sets
+# Judge-Girl-Problem-Set
 https://judgegirl.csie.org/#
