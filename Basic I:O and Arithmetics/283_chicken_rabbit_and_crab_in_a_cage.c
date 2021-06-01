@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+	int s, f, t;
+	scanf("%d%d%d", &s, &f, &t);
+
+	int crab = s - t;
+	int rabbit = (f + 6 * t - 8 * s) / 2;
+	int chicken = (8 * s - 4 * t - f) / 2;
+
+	printf("%d\n", chicken);
+	printf("%d\n", rabbit);
+	printf("%d\n", crab);
+	
+	return 0;
+}
