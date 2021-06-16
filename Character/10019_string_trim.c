@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 	    end = s + strlen(s) - 1;
 	    
 		while (isspace(*start))
-		    ++start;
+			++start;
 
 		while (isspace(*end))
 			--end;
